@@ -1,0 +1,1190 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    font-size: 20px;
+    margin: 0;
+    line-height: 1;
+    height:100%;
+    top: 0 !important;
+}
+.skiptranslate {
+    display: none;
+    height: 0;
+  }
+  .language__img {
+    cursor: pointer;
+  }
+*{
+    border: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+span {
+    font-weight: 700;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+/* Header */
+
+
+.navbar-toggler {
+    background-color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.social-nav {
+    display: flex;
+}
+.social-nav li {
+    margin: 0 5px 0 0;
+}
+.social-icons-nav {
+    width: 32px;
+    height: 32px;
+}
+.tel {
+    display: none !important;
+}
+
+.nav-link {
+    color: #f6a03d !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    transition: color 0.3s !important;
+    font-family: 'Franklin Gothic Heavy';
+}
+
+
+.nav-link:hover {
+    color: #000 !important;
+}
+
+
+/* Main block */
+
+
+.intro {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/main-bg.webp) center no-repeat;
+    background-size: cover;
+}
+
+
+.wrapper {
+    max-width: 800px;
+    margin-top: 220px;
+}
+.intro-h1 {
+    color: #fff;
+    font-size: 64px;
+    font-family: 'Franklin Gothic Heavy';
+    text-align: left;
+}
+
+.btn-main {
+    padding: 15px 16px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background: #f6a03d !important;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Heavy';
+    border: none;
+    border-radius: 100px;
+    transition: all 0.2s linear;
+    color: white;
+}
+
+
+.btn-main:hover {
+    color: #000;
+    background:#fff !important;
+    
+}
+
+
+/* Section 1 */
+
+.container-xxl {
+    max-width: 1820px !important;
+}
+.sec1 {
+    background-color: #0D0D0D;
+    width: 100%;
+    height: 110vh;
+}
+
+
+.wrapper2 {
+    max-width: 690px;
+    padding-top: 100px;
+}
+
+
+.wrapper2 h1 {
+    color: #fff;
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 46px;
+    padding-left: 71px;
+}
+
+
+.wrapper2 p {
+    color: #fff;
+    font-family: 'Franklin Gothic Book';
+    font-size: 20px;
+    padding-left: 71px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+
+
+.wrapper2 a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+.img1 {
+    margin-top: 180px;
+    margin-left: 50px;
+    width: 859px;
+    height: 586px;
+}
+
+.all-rows {
+    padding-top: 65px;
+}
+
+.wrapper3 {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.wrapper5 {
+    border-right: 1px solid #fff;
+}
+
+.heading {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Heavy';
+    color: #f6a03d;
+}
+
+
+.p {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Franklin Gothic Book';
+    font-weight: 700;
+    line-height: 27px;
+    color: #fff;
+}
+
+
+
+/* Sections */
+
+
+.sec-container {
+    margin: 0 auto;
+}
+
+
+.sec-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.img-sec {
+    max-width: 370px;
+    transition: transform .2s linear;
+}
+
+
+.sec__img {
+    background: url(../img/module-house.webp);
+    background-size: cover;
+    width: 384px;
+    height: 837px;
+    object-fit: cover; 
+}
+
+.sec__img2 {
+    background: url(../img/module-ban.webp);
+    background-size: cover;
+    width: 384px;
+    height: 837px;
+}
+
+.sec__img3 {
+    background: url(../img/pav.webp);
+    background-size: cover;
+    width: 384px;
+    height: 837px;
+}
+
+
+.sec__img4 {
+    background: url(../img/module-build.webp);
+    background-size: cover;
+    width: 384px;
+    height: 837px;
+}
+
+.sec__img5 {
+    background: url(../img/vag.webp);
+    background-size: cover;
+    width: 367px;
+    height: 837px;
+}
+
+.des {
+    font-family: 'Franklin Gothic Heavy' !important;
+    font-weight: 400;
+    font-size: 26px !important;
+    text-transform: uppercase;
+    color: #fff !important;
+    padding-left: 60px !important;
+    padding-top: 45px !important;
+    position: absolute;
+    text-decoration: none !important;
+}
+
+.texthover {
+    display: none;
+    line-height: 820px;
+    animation: fade .5s linear forwards;
+    font-family: 'Franklin Gothic Heavy';
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+    padding-left: 65px;
+    padding-top: 15px;
+    max-width: 384px;
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.sec__img:hover p {
+    display: block;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.sec__img2:hover p {
+    display: block;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.sec__img3:hover p {
+    display: block;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.sec__img4:hover p {
+    display: block;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+
+.sec__img5:hover p {
+    display: block;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+
+/* certificates */
+
+.certificates {
+    background-color: #0D0D0D;
+    width: 100%;
+    height: 500px;
+}
+
+.cert-wrapper {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.certh1 {
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.img-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.popup {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.3);
+	position:fixed;
+	z-index:1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: auto;
+  height: auto;
+}
+
+
+.popup_img {
+	position: fixed;
+	z-index:2;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	max-height: 90%;
+}
+
+.popup_img {
+  pointer-events: none;
+}
+
+
+/* Feedback */
+
+
+.feedback {
+    background: url(../img/feedback.webp) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 618px;
+}
+
+
+.feed-wrapper {
+    max-width: 1630px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+.feed-wrapper h1 {
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 36px;
+    color: #fff;
+}
+
+
+.feed-wrapper p {
+    font-family: 'Franklin Gothic Demi';
+    font-size: 28px;
+    color: #fff;
+    line-height: 36px;
+    letter-spacing: -0.005em;
+    font-weight: 300;
+    padding-top: 40px;
+}
+
+.feed-wrapper a {
+    width: 253px;
+    height: 64px;
+    margin-top: 60px;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff !important;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 17px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Heavy'!important ;
+    border: none;
+    border-radius: 100px;
+    transition:background .2s linear, color .2s linear;
+    color: #000;
+}
+
+
+
+.feed-wrapper a:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+
+/* Module houses */
+
+
+.slider {
+	height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.slider-content {
+	height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.slide {
+	height: 100%;
+  width: 100%;
+  display:table;
+}
+.slide > div {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color:#fff;
+    font-family: 'Franklin Gothic Heavy'!important ;
+}
+.slide > div h1 {
+	font-size: 84px;
+}
+.slide > div p {
+	font-size: 22px;
+	line-height: 1.4em;
+	font-style: italic;
+}
+
+.sl1 {
+	background: url(../img/sl4.jpeg) no-repeat;
+	background-size: cover;
+}
+.sl2 {
+	background: url(../img/sl2.jpeg) no-repeat;
+	background-size: cover;
+}
+.sl3 {
+	background: url(../img/sl3.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+.slider-controls {
+	position:absolute;
+	left:0px;
+	bottom:30px;
+	text-align:center;
+	width: 100%;
+}
+.slider-controls .control-slide {
+	margin:2px;
+	display:inline-block;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:#fff;
+	border-radius: 50%;
+	-webkit-border-radius:50%;
+}
+.slider-controls .control-slide:hover {
+	background: #FFED87;
+	cursor: pointer;
+}
+.slider-controls .control-slide.active {
+	background: #FFD800;
+}
+.info-intro {
+    height: 50vh;
+}
+.info-intro-build {
+    height: 60vh;
+}
+.info {
+    padding-top: 15px;
+    
+}
+.info h3{
+    font-size: 64px;
+    font-family: 'Franklin Gothic Demi Cond';
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+}
+
+.info p {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Demi Cond';
+    font-weight: 500;
+    color: #000;
+}
+.wrapper-inf {
+    padding-top: 25px;
+}
+
+.proekt {
+    font-size: 64px;
+    font-family: 'Franklin Gothic Demi Cond';
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+}
+.main-intro {
+    width: 100%;
+    height: auto;
+}
+
+
+.img-houses{
+    width: 859px;
+    height: 517px;
+    background-image: url(..//img/houses/dom1-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-houses2{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/houses/dom2-sn5.jpg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-houses3{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/houses/dom3-sn1.jpg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-houses4{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/houses/dom4-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-houses5{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/houses/dom5-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-houses6{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/houses/dom6-sn5.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-houses7{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/houses/dom7-sn2.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-houses:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-houses2:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-houses3:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-houses4:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-houses5:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-houses6:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-houses7:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+
+
+.wrapper-img {
+    display: flex;
+    justify-content: space-between;
+    animation: fade .2s linear forwards;
+}
+
+
+.wrapper-hover {
+    text-align: center;
+    animation: fade .2s linear forwards;
+}
+
+.wrapper-hover h1 {
+    display: none;
+    padding-top: 150px;
+    color: #fff;
+    font-family: 'Franklin Gothic Demi Cond';
+    font-size: 64px;
+    animation: fade .2s linear forwards;
+
+}
+
+.wrapper-hover p {
+display: none;
+color: #fff;
+font-size: 20px;
+font-family: 'Franklin Gothic Demi';
+animation: fade .2s linear forwards;
+}
+.wrapper-hover button {
+display: none;
+border: 2px solid #fff;
+border-radius: 40px;
+color: #fff;
+font-family: 'Franklin Gothic Demi';
+font-size: 20px;
+background-color: transparent !important;
+text-decoration: none;
+width: 189px;
+height: 55px;
+text-align: center !important;
+animation: fade .2s linear forwards;
+}
+.wrapper-hover:hover h1 {
+    display: block;
+}
+
+.wrapper-hover:hover p {
+display: block;
+}
+.wrapper-hover:hover button {
+display: inline-block;
+
+}
+
+.btn-hover:hover {
+    color: #fff !important;
+}
+
+
+.feedback-sections {
+    background: url(../img/feedback-sections.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 618px;
+}
+
+
+/* Ban */
+
+
+.sl1-ban {
+	background: url(../img/sl1-ban.jpeg) no-repeat;
+	background-size: cover;
+}
+
+.sl3-ban {
+	background: url(../img/sl3-ban.jpeg) no-repeat;
+	background-size: cover;
+}
+.sl4-ban {
+	background: url(../img/sl4-ban.jpeg) no-repeat;
+	background-size: cover;
+}
+
+h5 {
+    text-align: center;
+}
+
+.modal-body p {
+    padding: 0;
+    border-bottom: 1px solid #000;
+}
+
+.modal-body h3 {
+    text-align: center;
+}
+.img-ban{
+    width: 859px;
+    height: 517px;
+    background-image: url(..//img/ban1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-ban2{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/ban2.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-ban3{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/ban3-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-ban4{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/ban4-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-ban5{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/ban5-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-ban6{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/ban6-sn2.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-ban7{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/ban7-sn2.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-ban:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-ban2:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-ban3:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-ban4:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-ban5:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-ban6:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-ban7:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+
+.pland {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Pav */
+.pav-intro {
+    
+    width: 100%;
+    height: auto;
+}
+.sl1-pav {
+	background: url(../img/sl1-pav.jpg) no-repeat;
+	background-size: cover;
+}
+
+.sl2-pav {
+	background: url(../img/sl2-pav.jpg) no-repeat;
+	background-size: cover;
+}
+.sl3-pav {
+	background: url(../img/sl3-pav.jpg) no-repeat;
+	background-size: cover;
+}
+.img-pav1{
+    width: 859px;
+    height: 517px;
+    background: url(../img/pav1-sn1.jpeg) center center no-repeat;
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover ;
+}
+.img-pav2{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/pav2-sn3.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-pav3{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/pav3-sn2.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-pav4{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/pav4-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-pav1:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-pav2:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-pav3:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-pav4:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+/*Build */
+.sl1-build {
+	background: url(../img/build/sl1.webp) no-repeat;
+	background-size: cover;
+}
+
+.sl2-build {
+	background: url(../img/build/sl2.webp) no-repeat;
+	background-size: cover;
+}
+.sl3-build {
+	background: url(../img/build/sl3.webp) no-repeat;
+	background-size: cover;
+}
+.img-build{
+    width: 859px;
+    height: 517px;
+    background: url(../img/build/build1-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover ;
+}
+.img-build2{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/build/build2-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-build3{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/build/build3-sn2.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-build4{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/build/build4-sn3.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-build:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-build2:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-build3:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-build4:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+/* Vagon */
+.vag-intro {
+    width: 100%;
+    height: auto;
+}
+.sl1-vag {
+	background: url(../img/sl2-vag.jpg) no-repeat;
+	background-size: cover;
+}
+
+.sl2-vag {
+	background: url(../img/sl3-vag.jpg) no-repeat;
+	background-size: cover;
+}
+.sl3-vag {
+	background: url(../img/sl1-vag.jpg) no-repeat;
+	background-size: cover;
+}
+.img-vag1{
+    width: 859px;
+    height: 517px;
+    background: url(../img/vag1-sn1.png) center center no-repeat;
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover ;
+}
+.img-vag2{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/vag2-sn2.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-vag3{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/vag3-sn3.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-vag4{
+    width: 859px;
+    height: 517px;
+    background-image: url(../img/pav4-sn1.jpeg);
+    margin-bottom: 100px;
+    opacity: 1;
+    transition: transform 0.3s linear;  
+    display: block;  
+    background-size: cover;
+}
+.img-vag1:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-vag2:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-vag3:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img-vag4:hover {
+    transform: scale(1.05); /* Увеличение картинки */
+}
+/* Delivery */
+
+.intro-delivery {
+    background-color: #F5F5F5;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.delivery-wrapper {
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+
+.delivery-wrapper h1 {
+    font-family: 'Franklin Gothic Heavy' ;
+    font-size: 64px;
+    color: #000;
+}
+
+.number {
+    font-family: 'Franklin Gothic Heavy' ;
+    font-size: 32px;
+    text-align: left;
+    line-height: 36px;
+    color: #f6a03d;
+}
+
+
+.words {
+    font-family: 'Franklin Gothic Demi Cond';
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    line-height: 20px;
+}
+
+
+.delivery-wrapper h3 {
+    color: #000;
+    font-family: 'Franklin Gothic Heavy' ;
+    font-size: 32px;
+}
+
+.form-wrapper {
+    width: 370px;
+    height: 265px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inf {
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Heavy' ;
+
+}
+
+
+.contact {
+    font-family: 'Franklin Gothic Book';
+    font-size: 20px;
+    color: #000;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+
+.control-form {
+    background: #fff;
+    border: 1px solid #494949;
+    width: 235px;
+    height: 49px;
+    margin-bottom: 10px;
+    font-size:16px;
+    font-family: 'Franklin Gothic Demi Cond';
+    padding: 10px 10px;
+}
+
+.control__form {
+    width: 500px;
+    height: 135px;
+    background: #fff;
+    border: 1px solid #494949;
+    font-size:16px;
+    font-family: 'Franklin Gothic Demi Cond';
+    padding: 10px 10px;
+}
+
+
+.btn-form {
+    width: 500px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Book';
+    transition: all .2s linear;
+    margin-top: 20px;
+}
+
+
+.btn-form:hover {
+    background-color: #f6a03d;
+    
+}
+
+.social-icons {
+    text-align: left;
+    display: flex;
+    margin-top: 70px;
+}
+
+
+.social-icons li {
+    list-style-type:none;
+  margin: 0 20px 0 0;
+}
+.social-icons li img {
+    width: 42px;
+    height: 42px;
+}

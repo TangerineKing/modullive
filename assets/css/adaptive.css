@@ -1,0 +1,1160 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1600px) { 
+    .des {
+        font-size: 20px !important;
+    }
+    .sec1 {
+        height: 140vh;
+    }
+    .img-sec {
+        max-width: 317px;
+    }
+    .sec__img {
+        width: 320px;
+    }
+    .sec__img2 {
+        width: 320px;
+    }
+    .sec__img3 {
+        width: 320px;
+    }
+    .sec__img4 {
+        width: 320px;
+    }
+    .sec__img5 {
+        width: 248px;
+    }
+    .texthover {
+        padding-left: 52px;
+        font-size: 20px;
+    }
+   
+    .img-houses, .img-houses2, .img-houses3,.img-houses4,.img-houses5,.img-houses6,.img-houses7,.img-ban,.img-ban2,.img-ban3,.img-ban4,.img-ban5,.img-ban6,.img-ban7,.img-build,.img-build2,.img-build3,.img-build4,.img-pav1,.img-pav2,.img-pav3,.img-pav4,.img-vag1,.img-vag2,.img-vag3,.img-vag4 {
+        width: 674px;
+        height: 430px;
+    }
+    .wrapper-hover h1 {
+        font-size: 54px;
+    }
+    .wrapper-inf {
+        padding-top: 80px;
+    }
+    .pav-intro {
+        height: 180vh;
+    }
+    .vag-intro {
+        height: 166vh;
+    }
+}
+@media only screen and (max-width: 1400px) {
+   
+    .intro-h1 {
+        font-size: 54px;
+    }
+    .sec1 {
+        height: 110vh;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .p {
+        font-size: 18px;
+    }
+    .img1 {
+        height: 420px;
+    }
+    .des {
+        font-size: 16px !important;
+        padding-left: 15px !important;
+    }
+    .container-xxl {
+        max-width: 1300px !important;
+    }
+    .sec__img {
+        width: 280px;
+    }
+    .sec__img2 {
+        width: 280px;
+    }
+    .sec__img3 {
+        width: 280px;
+    }
+    .sec__img4 {
+        width: 280px;
+    }
+    .sec__img5 {
+        width: 280px;
+    }
+    .texthover {
+        font-size: 16px;
+        padding-left: 41px;
+    }
+    .delivery-wrapper h1{
+        font-size: 58px;
+    }
+
+    .words {
+        font-size: 16px;
+    }
+    .delivery-wrapper h3 {
+        font-size: 26px;
+    }
+    .control__form {
+        width: 409px;
+    }
+    .btn-form {
+        width: 409px;
+    }
+
+    .img-houses {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-houses2 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-houses3 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-houses4 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-houses5 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-houses6 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-houses7 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-ban {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    } 
+    .img-ban2 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-ban3 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-ban4 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-ban5 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-ban6 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-ban7 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-build {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    } 
+    .img-build2 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-build3 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-build4 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-pav1 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    } 
+    .img-pav2 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-pav3 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-pav4 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-vag1 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    } 
+    .img-vag2 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-vag3 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .img-vag4 {
+        width: 614px;
+        height: 404px;
+        background-size: cover;
+    }
+    .wrapper-hover h1 {
+        font-size: 48px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+   .navbar {
+    background-color: #fff !important;
+   }
+   .social-nav {
+    display: flex;
+   }
+.tel {
+    display: inline-block !important;
+}
+.social-icons-nav {
+    width: 42px;
+    height: 42px;
+}
+    .intro-h1 {
+        font-size: 54px;
+    }
+    .sec1 {
+        height: 120vh;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .p {
+        font-size: 18px;
+    }
+    .img1 {
+        height: 420px;
+    }
+    .des {
+        font-size: 16px !important;
+        padding-left: 15px !important;
+    }
+    .sec__img {
+        width: 200px;
+    }
+    .sec__img2 {
+        width: 200px;
+    }
+    .sec__img3 {
+        width: 200px;
+    }
+    .sec__img4 {
+        width: 200px;
+    }
+    .sec__img5 {
+        width: 200px;
+    }
+    .texthover {
+        font-size: 16px;
+        padding-left: 41px;
+    }
+    .delivery-wrapper h1{
+        font-size: 58px;
+    }
+
+    .words {
+        font-size: 16px;
+    }
+    .delivery-wrapper h3 {
+        font-size: 26px;
+    }
+    .control__form {
+        width: 409px;
+    }
+    .btn-form {
+        width: 409px;
+    }
+
+    .main-intro {
+        height: 208vh;
+    }
+    .img-houses {
+        width: 500px;
+        height: 302px;
+    }
+    .img-houses2 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-houses3 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-houses4 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-houses5 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-houses6 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-houses7 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-ban {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    } 
+    .img-ban2 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-ban3 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-ban4 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-ban5 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-ban6 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-ban7 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-build {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    } 
+    .img-build2 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-build3 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-build4 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-pav1 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    } 
+    .img-pav2 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-pav3 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-pav4 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-vag1 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    } 
+    .img-vag2 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-vag3 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .img-vag4 {
+        width: 500px;
+        height: 302px;
+        background-size: cover;
+    }
+    .wrapper-hover h1 {
+        font-size: 38px;
+        padding-top: 92px;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .intro-h1 {
+        font-size: 44px;
+    }
+    .sec1 {
+        height: 155vh;
+    }
+    .row {
+        display: inline !important;
+    }
+    .slide > div h1 {
+        font-size: 64px;
+    }
+    .wrapper4 {
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+    }
+
+    .wrapper5 {
+        border-left: 1px solid #fff;
+    }
+    .des {
+        font-size: 14px !important;
+        padding-left: 15px !important;
+    }
+    .sec__img {
+        width: 176px;
+    }
+    .sec__img2 {
+        width: 176px;
+    }
+    .sec__img3 {
+        width: 176px;
+    }
+    .sec__img4 {
+        width: 176px;
+    }
+    .sec__img5 {
+        width: 176px;
+    }
+    .texthover {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .certificates {
+        height: 705px;
+    }
+    .img-wrapper {
+    display: inline-flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    }
+
+    .feed-wrapper h1 {
+        font-size: 30px;
+    }
+
+    .feed-wrapper p {
+        font-size: 22px;
+    }
+
+    .feed-wrapper a {
+        margin-top: 26px;
+    }
+
+    .slide > div h2 {
+        font-size: 64px;
+    }
+    .main-intro {
+        height: auto;
+    }
+    .info p {
+        font-size: 16px;
+    }
+    .pav-intro {
+        height: auto;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .slide > div h1 {
+        font-size: 44px;
+    }
+    .intro-h1 {
+        font-size: 54px;
+    }
+    .sec1 {
+        height: 230vh;
+    }
+    .heading {
+        font-size: 22px;
+    }
+    .p {
+        font-size: 20px;
+    }
+    .wrapper2 {
+        padding-top: 0
+    }
+    .wrapper2 h1 {
+        text-align: center;
+    }
+    .wrapper2 p {
+        padding-left: 16px;
+    }
+    .img1 {
+        height: 295px;
+        width: 399px;
+        margin-top: 65px;
+    }
+
+    .img-sec {
+        max-width: 100%;
+    }
+    .sec-wrapper {
+        display: inline;
+    }
+    .sec__img {
+        width: auto;
+    }
+    .sec__img2 {
+        width: 100%;
+      
+    }
+    .sec__img3 {
+        width: 100%;
+        
+    }
+    .sec__img4 {
+        width: 100%;
+
+    }
+    .sec__img5 {
+        width: 100%;
+
+    }
+    .des {
+        font-size: 22px !important;
+        padding-left: 290px !important;
+    }
+    .texthover {
+        font-size: 18px;
+        padding-left: 126px;
+        line-height: 820px;
+        max-width: 100%;
+    }
+
+    .certificates {
+        height: 984px;
+    }
+    .info h1 {
+        font-size: 54px;
+    }
+    .proekt {
+        font-size: 42px;
+    }
+    .info p {
+        font-size: 13px;
+    }
+    .pav-intro {
+        height: auto;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .intro-h1 {
+        font-size: 32px;
+    }
+    .slide > div h1 {
+        font-size: 34px;
+    }
+    .sec1 {
+        height: 153vh;
+    }
+    .img1 {
+        height: 215px;
+        width: 267px;
+        margin-top: 51px;
+    }
+    .wrapper2 h1 {
+        font-size:38px ;
+        padding-left: 0;
+
+    }
+    .wrapper2 p{
+        font-size: 12px;
+
+    }
+    .row {
+        display: inline !important;
+    }
+    .heading {
+        font-size: 20px;
+    }
+
+    .p {
+        font-size: 18px;
+    }
+    .des {
+        font-size: 18px !important;
+        padding-left: 115px !important;
+    }
+
+    .img-sec {
+        max-width: 100%;
+    }
+    .sec-wrapper {
+        display: inline;
+    }
+    .sec__img {
+        width: auto;
+    }
+    .sec__img2 {
+        width: 100%;
+      
+    }
+    .sec__img3 {
+        width: 100%;
+        
+    }
+    .sec__img4 {
+        width: 100%;
+
+    }
+    .sec__img5 {
+        width: 100%;
+
+    }
+    .texthover {
+        font-size: 18px;
+        padding-left: 126px;
+        line-height: 820px;
+        max-width: 100%;
+    }
+    .certificates {
+        height: 985px;
+    }
+    .img-wrapper {
+    display: inline-flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    }
+    .feed-wrapper {
+        padding-top: 31px;
+    }
+    .feed-wrapper h1 {
+        font-size: 24px;
+    }
+
+    .feed-wrapper p {
+        font-size: 20px;
+    }
+
+    .feed-wrapper a {
+        margin-top: 26px;
+        font-size: 16px;
+    }
+    .certh1 {
+        font-size: 30px;
+    }
+    .delivery-wrapper h1{
+        font-size: 28px;
+    }
+
+    .words {
+        font-size: 18px;
+    }
+    .delivery-wrapper h3 {
+        font-size: 22px;
+    }
+    .form-wrapper {
+        width: 290px;
+
+    }
+    .slide > div h2 {
+        font-size: 40px;
+    }
+    .inf {
+        font-size: 18px;
+    }
+    .control__form {
+        width: 286px;
+    }
+    .btn-form {
+        width: 286px;
+        margin-top: 0px;
+    }
+
+    .main-intro {
+        height: auto;
+    }
+    .info p {
+        font-size: 16px;
+    }
+    .info h1 {
+        font-size: 32px;
+    }
+    .proekt {
+        font-size: 32px;
+    }
+    .img-houses {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    } 
+    .img-houses2 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-houses3 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-houses4 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-houses5 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-houses6 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-houses7 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-ban {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    } 
+    .img-ban2 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-ban3 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-ban4 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-ban5 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-ban6 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-ban7 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-build {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    } 
+    .img-build2 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-build3 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-build4 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-pav1 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    } 
+    .img-pav2 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-pav3 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-pav4 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-vag1 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    } 
+    .img-vag2 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-vag3 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .img-vag4 {
+        width: 324px;
+        height: 208px;
+        background-size: cover;
+    }
+    .wrapper-hover h1 {
+        font-size: 30px;
+        padding-top: 36px;
+    }
+    .info p {
+        font-size: 11px;
+    }
+    .pav-intro {
+        height: auto;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+    .slide > div h1 {
+        font-size: 24px;
+    }
+    .intro-h1 {
+        font-size: 28px;
+    }
+    .sec1 {
+        height: 225vh;
+    }
+    .img1 {
+        height: 230px;
+        width: 253px;
+        margin-top: 51px;
+        margin-left: 12px;
+    }
+    .wrapper2 {
+        padding-top: 19px;
+    }
+    .wrapper2 h1 {
+        font-size:32px ;
+
+    }
+    .wrapper2 p{
+        font-size: 14px;
+        padding-left: 13px;
+    }
+    .row {
+        display: inline !important;
+    }
+    .heading {
+        font-size: 18px;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+    .sec__img {
+        width: auto;
+    }
+    .certificates {
+        height: 1500px;
+    }
+    .img-wrapper {
+    display: inline-flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    }
+
+    .feed-wrapper h1 {
+        font-size: 20px;
+    }
+
+    .feed-wrapper p {
+        font-size: 16px;
+    }
+
+    .feed-wrapper a {
+        margin-top: 26px;
+        font-size: 16px;
+    }
+    .certh1 {
+        font-size: 30px;
+    }
+
+    .delivery-wrapper h1{
+        font-size: 28px;
+    }
+    .words {
+        font-size: 18px;
+    }
+    .delivery-wrapper h3 {
+        font-size: 20px;
+    }
+    .form-wrapper {
+        width: 200px;
+
+    }
+
+    .inf {
+        font-size: 16px;
+    }
+    .control-form {
+        width: 204px;
+
+    }
+    .control__form {
+        width: 204px;
+    }
+    .btn-form {
+        width: 204px;
+        margin-top: 0px;
+    }
+    .main-intro {
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .info h1 {
+        font-size: 22px;
+    }
+    .proekt {
+        font-size: 22px;
+    }
+    .img-houses {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    } 
+    .img-houses2 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-houses3 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-houses4 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-houses5 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-houses6 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-houses7 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+
+    .img-ban {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    } 
+    .img-ban2 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-ban3 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-ban4 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-ban5 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-ban6 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-ban7 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-build {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    } 
+    .img-build2 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-build3 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-build4 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-pav1 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    } 
+    .img-pav2 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-pav3 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-pav4 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-vag1 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    } 
+    .img-vag2 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-vag3 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .img-vag4 {
+        width: 216px;
+        height: 130px;
+        background-size: cover;
+    }
+    .vag-intro {
+        padding-top: 236px;
+    }
+    .info p {
+        font-size: 14px;
+    }
+    .slide > div h2 {
+        font-size: 30px;
+    }
+    .wrapper-hover h1 {
+        font-size: 20px;
+        padding-top: 12px;
+    }
+    .wrapper-hover p {
+        font-size: 15px;
+    }
+    .wrapper-hover button {
+        width: 110px;
+        height: 34px;
+        font-size: 12px;
+    }
+    .info p {
+        font-size: 10px;
+    }
+    .pav-intro {
+        height: auto;
+    }
+}
