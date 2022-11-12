@@ -49,9 +49,9 @@ if ($_POST) { // если передан массив POST
 	}
 
 	$emailgo= new TEmail; // инициализируем супер класс отправки
-	$emailgo->from_email= 'smtp.module1.me'; // от кого
+	$emailgo->from_email= 'fromme.com'; // от кого
 	$emailgo->from_name= 'Тестовая форма';
-	$emailgo->to_email= olegetm@mail.ru; // кому
+	$emailgo->to_email= private-information@again.com; // кому
 	$emailgo->to_name= $name;
 	$emailgo->subject= $subject; // тема
 	$emailgo->body= $message; // сообщение
