@@ -12,7 +12,7 @@ $(document).ready(function() { // вся магия после загрузки 
 			var data = form.serialize(); // подготавливаем данные
 			$.ajax({ // инициализируем ajax запрос
 			   type: 'POST', // отправляем в POST формате, можно GET
-			   url: 'gogogo.php', // путь до обработчика, у нас он лежит в той же папке
+			   url: 'gogogo.php',
 			   dataType: 'json', // ответ ждем в json формате
 			   data: data, // данные для отправки
 		       beforeSend: function(data) { // событие до отправки
